@@ -11,7 +11,7 @@ public class Music {
     public Integer selection(Integer startIndex, String selection) {
         int forwardsCounter = 0;
         int backwardsCounter = 0;
-        for (int i = 0; i < startIndex + 1; i++) {
+        for (int i = 0; i <= startIndex ; i++) {
             forwardsCounter++;
             if (playList[i].equals(selection)) {
                 break;
